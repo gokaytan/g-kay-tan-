@@ -1,0 +1,60 @@
+#User Management Screen UI Specification:
+
+##Requirements:
+
+1. New User: Allow the creation of a new user with specified details
+2. Hide Disabled User: Provide an option to hide/disable users from being displayed
+3. Filter by Username: Allow filtering users by their username.
+4. Display User Information: Display user details such as username, display name, phone, email, roles, and enabled status
+5. User Roles: Enable selection of user roles from predefined options.
+6. Enabled Status: Toggle button to enable/disable user accounts.
+
+## UI Components:
+
+1. New User Form
+
+   - Username (text input)
+   - Display Name (text input)
+   - Phone (text input)
+   - Email (text input)
+   - User Roles (dropdown/select)
+   - Enabled (toggle button)
+
+2. User List
+
+   - Username (text)
+   - Display Name (text)
+   - Phone (text)
+   - Email (text)
+   - User Roles (text or dropdown)
+   - Enabled Status (toggle button)
+
+3. Filter/Search Bar
+
+   - Search input for filtering users by username
+   - Checkbox to hide disabled users
+
+
+##Page Behavior:
+
+1.On Load:
+
+  - Display a list of users with their details.
+  - Show an option to create a new user.
+  - Provide a filter/search bar to search for users by username and hide disabled users.
+
+2. New User Form:
+
+  - When the "New User" button is clicked, display a form to input new user details.
+  - Once the form is filled and submitted, add the new user to the list.
+
+3. User List:
+
+  - Each user entry displays their username, display name, phone, email, user roles, and enabled status.
+  - User roles can be edited by clicking on them, enabling the selection of roles from a dropdown.
+  - Enabled status can be toggled on/off.
+
+4.Filter/Search:
+
+  - Allow users to filter/search for specific users by entering their username in the search bar.
+  - Provide a checkbox option to hide disabled users from the list.
